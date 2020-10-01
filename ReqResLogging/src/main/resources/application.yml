@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: LOG-APP
+
+logging:  file:    name: logs.log
+  level:    root: INFO
+    com.logs: DEBUG
+
+log:
+  request:
+#    log-header: true
+#    log-clientInfo: false

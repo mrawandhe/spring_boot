@@ -1,0 +1,11 @@
+2020-10-01 14:05:36.636  INFO [LOG-APP,,,] 7216 --- [main] com.logs.LoggerApplication               : No active profile set, falling back to default profiles: default
+2020-10-01 14:05:37.818  INFO [LOG-APP,,,] 7216 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0fe52975-c82e-3007-ac3f-fd23dd28ff83
+2020-10-01 14:05:38.436  INFO [LOG-APP,,,] 7216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-01 14:05:38.445  INFO [LOG-APP,,,] 7216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-01 14:05:38.445  INFO [LOG-APP,,,] 7216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-10-01 14:05:38.611  INFO [LOG-APP,,,] 7216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-01 14:05:38.611  INFO [LOG-APP,,,] 7216 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1927 ms
+2020-10-01 14:05:39.065 DEBUG [LOG-APP,,,] 7216 --- [main] com.logs.config.LogFilter                : Filter 'logFilter' configured for use
+2020-10-01 14:05:39.448  INFO [LOG-APP,,,] 7216 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-01 14:05:40.801  INFO [LOG-APP,,,] 7216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-01 14:05:41.250  INFO [LOG-APP,,,] 7216 --- [main] com.logs.LoggerApplication               : Started LoggerApplication in 6.719 seconds (JVM running for 9.139)
